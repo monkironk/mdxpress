@@ -1,9 +1,9 @@
 # mdXpress
  
 ## Built using:
--Django for the backend
--Vue.js for the frontend
--PostgreSQL as the database
+- Django for the backend
+- Vue.js for the frontend
+- PostgreSQL as the database
 
 ## Getting started , Settings for the Backend step by step
 ### You will need to have a version of Python3 & Postgresql installed !!!!!
