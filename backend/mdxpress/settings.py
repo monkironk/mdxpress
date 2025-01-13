@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'mdxpress.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'mdxpressdb',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',  # oder die IP-Adresse deines DB-Servers , localhost oder einfach leer ('') sein
+        'PORT': '5432',       # Standardport für PostgreSQL
     }
 }
 
